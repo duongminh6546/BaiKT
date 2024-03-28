@@ -1,0 +1,184 @@
+/* Reset CSS */
+body,
+input,
+form,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #007bff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Form Styles */
+form {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.lbltitle {
+    width: 150px;
+    float: left;
+}
+
+.lbltitle label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.lblinput {
+    margin-left: 150px;
+}
+
+.lblinput input[type="text"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit {
+    text-align: center;
+    clear: both;
+}
+
+.submit input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* Reset CSS */
+body,
+table,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
